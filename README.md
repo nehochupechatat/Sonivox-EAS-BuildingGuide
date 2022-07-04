@@ -2,7 +2,7 @@
 This guide will help you build a simple tool using one of the three Sonivox EAS synthesizers included in older android releases.
 Note that 64-bit is currently unsupported, and the wavetable synth isn't supported either. However, someone else (@Raulonthetest) managed to build the wavetable synth sucessfully using gyunaev's [libsonivox](https://github.com/gyunaev/libsonivox). repo.
 
-#FM synth
+# FM synth
 Throw the files from host_src and lib_src into your code project and use these compiler flags:
 ```
 EAS_FM_SYNTH
@@ -21,7 +21,7 @@ _RTTTL_PARSER
 _OTA_PARSER
 ```
 
-#Hybrid synth
+# Hybrid synth
 Throw the files from host_src and lib_src into your code project and use these compiler flags:
 ```
 EAS_HYBRID_SYNTH
@@ -42,8 +42,8 @@ _RTTTL_PARSER
 _OTA_PARSER
 ```
 
-#Changing the sample rate
-Look for ì0x00105622,î in
+# Changing the sample rate
+Look for ‚Äú0x00105622,‚Äù in
 eas_fmsndlib.c, hybrid_22khz_mcu.c or
 wt_22khz.c, and replace it with these supported values:
 
