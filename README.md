@@ -1,6 +1,6 @@
 # Sonivox EAS synth building guide
 This guide will help you build a simple tool using one of the three Sonivox EAS synthesizers included in older android releases.
-Note that 64-bit is currently unsupported, and the wavetable synth isn't supported either. However, someone else (@Raulonthetest) managed to build the wavetable synth sucessfully using gyunaev's [libsonivox](https://github.com/gyunaev/libsonivox). repo.
+Note that 64-bit is currently unsupported, and the wavetable synth isn't supported either. However, someone else (@Raulonthetest) managed to build the wavetable synth sucessfully using gyunaev's [libsonivox](https://github.com/gyunaev/libsonivox) repo.
 
 # FM synth
 Throw the files from host_src and lib_src into your code project and use these compiler flags:
